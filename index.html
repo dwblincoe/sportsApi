@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Football Stats</title>
+    <link rel="stylesheet" type='text/css' href='api.css'>
+</head>
+<body class="container">
+    <div id="overlay">
+        <div class="intro">
+            <h1>Hello!</h1>
+            <h4>Let's find some information about some of your favorite sports players</h4>
+            <h6>Click anywhere to start!</h6>
+        </div>
+    </div>
+        <h1 class="title">Sport Bio's</h1>
+        <div class="searchContainer">
+            <form class="box">
+                <label>Team:</label>
+                <input type="text" id='teamCity' placeholder='City...'>
+                <input type="text" id='teamName' placeholder='Name...'>
+                <button type="submit" id="subBtn1">Submit</button>
+            </form>
+            <form class='box2'>
+                <label>Player's Name:</label>
+                <input type="text" id='playerFirstName' placeholder='First Name'>
+                <input type="text" id='playerLastName' placeholder='Last Name'>
+                <button type="submit" id="subBtn2">Submit</button>
+            </form>
+        </div>
+        <div class="playerCard">
+            <div class='playerCardTab'>
+                <div class="name">
+
+                </div>
+            </div>
+            <div class='folderFront'>
+                <div class="bio1">
+            
+                </div>
+                <div class="bio2">
+                    <div id='sport'>
+                        <h3>Sport:</h3>
+                    </div>
+                    
+                    <div id='team'>
+                        <h3>Team:</h3>
+                    </div>
+                    
+                    <div id='position'>
+                        <h3>Position:</h3>
+                    </div>
+
+                    <div id='height'>
+                        <h3>Height:</h3>
+                    </div>
+
+                    <div id='weight'>
+                        <h3>Weight:</h3>
+                    </div>
+
+                    <div id='birthDate'>
+                        <h3>Birth Date:</h3>
+                    </div>    
+
+                    <div id='birthPlace'>
+                        <h3 id='birthPlace'>Birth Place:</h3>
+                    </div>
+                
+                </div>
+                <div class="description">
+
+                </div>
+            </div>
+        </div>
+    <script src="api.js"></script>
+</body>
+</html>
